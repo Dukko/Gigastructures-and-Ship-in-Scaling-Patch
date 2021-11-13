@@ -1,0 +1,74 @@
+ship_behavior = {
+	name = "giga_moon"
+	preferred_attack_range = 25
+	formation_distance = 25
+	return_to_formation_distance = 25
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 0.1							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = stay_at_range
+}
+
+ship_behavior = {
+	name = "giga_planet"
+	preferred_attack_range = 38
+	formation_distance = 38
+	return_to_formation_distance = 38
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 2							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = stay_at_range
+}
+
+ship_behavior = {
+	name = "giga_system"
+	preferred_attack_range = 50
+	formation_distance = 50
+	return_to_formation_distance = 50
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 2							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = stay_at_range
+}
+
+ship_behavior = {
+	name = "giga_qso_wormhole"
+	preferred_attack_range = 84
+	formation_distance = 84
+	return_to_formation_distance = 84
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 2							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = stay_at_range
+}
+
+ship_behavior = {
+	name = "giga_katzen_submarine"
+	preferred_attack_range = 75
+	formation_distance = 75
+	return_to_formation_distance = 75
+
+	combat_target_anchor = root
+
+	collision_awareness = 0.2
+	collision_radius = 0.1							#collision_radius is a multiplier on the radius specified in the ship size
+	collision_strafe = 2.5							#collision_strafe allows the ship to move in any direction while colliding with another
+	attack_move_pattern = stay_at_range
+	passive_move_pattern = stay_at_range
+}
